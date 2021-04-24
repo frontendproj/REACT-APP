@@ -27,7 +27,7 @@ const Navbar =() =>{
            
         <nav className="navbar navbar-expand-lg navbar-light bg-light ">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="#">NavLink</NavLink>
+    <NavLink className="navbar-brand font-weight-bold" to="#"><span>Logo</span></NavLink>
 
     <button className="navbar-toggler" onClick={toggleMenu}  type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -35,17 +35,17 @@ const Navbar =() =>{
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
     
       <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+        <li className="nav-item shadow-sm p-4 mb-4 bg-white">
+          <NavLink className="nav-link active font-weight-bold" aria-current="page" to="/">Home</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/services">Services</NavLink>
+        <li className="nav-item shadow-sm p-4 mb-4 bg-white">
+          <NavLink className="nav-link font-weight-bold" to="/services">Services</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/about">About</NavLink>
+        <li className="nav-item shadow-sm p-4 mb-4 bg-white">
+          <NavLink className="nav-link font-weight-bold" to="/about">About</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/contact">Contact</NavLink>
+        <li className="nav-item shadow-sm p-4 mb-4 bg-white ">
+          <NavLink className="nav-link font-weight-bold" to="/contact">Contact</NavLink>
         </li>
         
       </ul>

@@ -1,36 +1,31 @@
 import React from 'react'
 import web from '../src/Images/online.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home=() => {
     return (
         <>
-           
-               
-           <section className="secClass">
-               <div className="container-fluid">
+         <div className="container-fluid">
+             <div className="row">
+                 <div className="col-10 col-md-6 mx-auto">
+                      <div className="leftDiv">
+                     <h1>Showing Home Page </h1>
+                     <p>Lorem Ipsum textLorem Ipsum textLorem Ipsum text</p>
+                 </div>
+             </div>
+             <div className="col-10 col-md-6 mx-auto">
+                  <div className="rightDiv">
+                     <div className="divImg">
+                         <img src={web} alt="right-img"/>
+                     </div>
+                 </div>
+             </div>
                  
-                   <div className="divrow">
-                <div className="row">
-                    
-               <div className="col-sm-6 col-md-6">
-               <div className="leftText">
-                   <h1>Grow your business with<br/><span>Online tutorial</span></h1>
-                   <button>click</button>
-               </div> 
-               </div>
-               <div className="col-sm-6 col-md-6">
-               <div className="rightImg">
-                   <img src={web}></img>
-               </div> 
-               </div>
+                 
+             </div>
+         </div>  
                
-
-
-
-                </div>
-                </div>
-               </div>
-           </section> 
+         
         </>
     )
 }

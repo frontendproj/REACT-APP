@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -21,15 +23,12 @@ code {
   }
  
 .navdiv{
-
   width:100%;
   background:violet;
   position:relative;
   display:flex;
   justify-content: center;
   align-items: center;
-  
-
 }
 .nav{
   width:50%;
@@ -37,112 +36,56 @@ code {
   justify-content: space-around;
   background:red;
   align-items: center;
-  
-  
 }
 .navul{
   display:flex;
   justify-content: space-around;
-  padding:10px 20px;
-  
+  padding:10px 20px; 
 }
 .navul li{
   padding: 0 40px;
   font-size:20px;
   text-transform: capitalize;
   font-weight: 500;
-  
-  
   list-style-type: none;
-}
-
-.aboutlink
-{
-  color:aqua;
-}
-.secClass{
-  width:100%;
- 
 }
 #menuToggle{
   width:100%;
   text-align: center;
   padding:50px 0;
+  margin-top:20px; 
+}
+.navbar-brand span{
+  font-size:2.5rem;
+}
  
-  margin-top:20px;
- 
-}
-
-.leftText{
-  width:100%;
-  margin-top:110px;
-  margin-left:-150px;
-
-}
-.leftText h1{
- margin-top:0px;
- font-size: 2rem;
-}
-.leftText button{
+/* header banner css start */
+.leftDiv{
   
-  padding:5px 50px;
-  font-size: 1.3rem;
-  font-weight: 500;
-  background:#6AEDCB ;
-  border-radius: 50px;
-  outline:none;
-  border:none;
-  box-shadow: 2px 4px 10px 5px #E1ED6A ;
-  cursor:pointer;
-
+  position:relative;
+  top:250px;
+  left:0; 
 }
-.leftText button:hover{
-  background:coral;
+.leftDiv h1{
+  text-align: center;
+}
+.leftDiv{
+  text-align: center;
 }
 
-.rightImg{
-  width:500px; 
- 
-  object-fit: cover;
-  background-position: 100%;
-
-}
-.rightImg img{
+.rightDiv img{
   width:100%;
   
 }
-.divrow{
-  width:100%;
- 
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
+/* header banner css end */
 /* card */
 
-
-@media(max-width:700px){
-  .leftText{
-    width:100%;
-    margin:10px;
-    display:flex;
-    flex-direction: column;
-   
-   
-  }
-  .leftText h1{
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .rightImg{
-    max-width:600px;
-  }
-  .rightImg img{
-    width:100%;
-  }
- 
+/* media query start*/
+@media(max-width:750px){
+ .leftDiv{
+  position: relative;
+  top: 0;
+  left: 0;
+ } 
 }
+/* media query end */
