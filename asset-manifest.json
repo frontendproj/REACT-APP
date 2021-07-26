@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/REACT-APP/static/css/main.509d421e.chunk.css",
+    "main.js": "/REACT-APP/static/js/main.515179ee.chunk.js",
+    "main.js.map": "/REACT-APP/static/js/main.515179ee.chunk.js.map",
+    "runtime-main.js": "/REACT-APP/static/js/runtime-main.47b4877f.js",
+    "runtime-main.js.map": "/REACT-APP/static/js/runtime-main.47b4877f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/REACT-APP/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.50ccdab1.chunk.js": "/REACT-APP/static/js/2.50ccdab1.chunk.js",
+    "static/js/2.50ccdab1.chunk.js.map": "/REACT-APP/static/js/2.50ccdab1.chunk.js.map",
+    "index.html": "/REACT-APP/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/REACT-APP/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.509d421e.chunk.css.map": "/REACT-APP/static/css/main.509d421e.chunk.css.map",
+    "static/js/2.50ccdab1.chunk.js.LICENSE.txt": "/REACT-APP/static/js/2.50ccdab1.chunk.js.LICENSE.txt",
+    "static/media/about.b1219c30.jpg": "/REACT-APP/static/media/about.b1219c30.jpg",
+    "static/media/android-2.b9a4ef9c.jpg": "/REACT-APP/static/media/android-2.b9a4ef9c.jpg",
+    "static/media/app-3.89e4f84e.jpg": "/REACT-APP/static/media/app-3.89e4f84e.jpg",
+    "static/media/digitalmarketing.b1b0cbee.jpg": "/REACT-APP/static/media/digitalmarketing.b1b0cbee.jpg",
+    "static/media/marketing-2.24deac5f.jpg": "/REACT-APP/static/media/marketing-2.24deac5f.jpg",
+    "static/media/online.f1ef7c7c.png": "/REACT-APP/static/media/online.f1ef7c7c.png",
+    "static/media/software-3.92e90eb2.jpg": "/REACT-APP/static/media/software-3.92e90eb2.jpg",
+    "static/media/webdev-1.cd1b0a3f.jpg": "/REACT-APP/static/media/webdev-1.cd1b0a3f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47b4877f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.50ccdab1.chunk.js",
+    "static/css/main.509d421e.chunk.css",
+    "static/js/main.515179ee.chunk.js"
+  ]
+}
